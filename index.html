@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/fuleragem.js"></script>
+    <script src="js/main.js"></script>
+    <style>
+        #Game{
+            position: relative;
+            overflow:hidden;
+            width: 600px;
+            height: 300px;
+            background-color: rgb(122, 252, 172);
+        }
+        #Game>*{
+            position: absolute;
+        }
+        #Player{
+            width: 100px;
+            height: 50px;
+            top:0;
+            left:0;
+            background-image: url(Mario.png);
+            background-size: 2008px 7236px;
+            background-position: -350px -100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="Game">
+        <div id="Player"></div>
+    </div>
+</body>
+</html>
