@@ -24,7 +24,7 @@ function Colisao_Quadrada(Objeto1,Objeto2){
  * @param {object} Objeto Div que vai receber a animacação
  * @param {number} frames_p_sprite a cada quantos frames o sprite tem que mudar?
  * @param {JSON[]|String[]} spritesheet Array de texto com as urls de cada frame. Ou um array de JSONs, com o primeiro item sendo um JSON com um único atributo img(String com url) e os seguintes no seguinte formato = {x,y,w,h} (todos os att são números)
- * @param {number[]} tam_spsheet Tamanho da Spriteshet. Informe um array com a largura e altura (int) da imagem da spritesheet. Se o parâmetro anterior foi um array de texto, não coloque esse parâmetro
+ * @param {number[]} tam_spsheet Tamanho da Spriteshet. Informe um array com a largura e altura [int,int] da imagem da spritesheet. Se o parâmetro anterior foi um array de texto, não coloque esse parâmetro
  * 
  */
 function Animar(Objeto,frames_p_sprite,spritesheet,tam_spsheet=[]){
