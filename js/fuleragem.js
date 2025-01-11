@@ -32,7 +32,7 @@ function Animar(Objeto,frames_p_sprite,spritesheet,tam_spsheet=[]){
         Objeto.timer=0
         if(tam_spsheet.length>0){
             Objeto.frame=1
-            Objeto.style.backgroundImage = spritesheet[0].img
+            Objeto.style.backgroundImage = "url("+spritesheet[0].img+")"
             Objeto.style.backgroundSize = tam_spsheet[0]+"px "+tam_spsheet[1]+"px"
         }else{Objeto.frame=0}
         console.log(spritesheet.length)
