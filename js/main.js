@@ -15,7 +15,7 @@ function Start(){
 }
 
 function Update(){
-    Animar(obj,20,walk,[2008,7236])
+    
     requestAnimationFrame(Update)
 }
 
